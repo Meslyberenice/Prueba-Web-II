@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #888;
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+	font-family: 'Oswald', sans-serif;
+}
+
+header{
+    background-color: #000000;
+	height: 80px;
+}
+
+#hero{
+	background-image: url("../img/bg-hero.jpg");
+	background-position: center;
+	text-align: left;
+	color: white;
+}
+
+.overlay{
+	padding: 150px;
+}
+
+#hero h7{
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: #FFFFF;
+}
+
+#hero h1{
+	font-size: 80px;
+	margin-bottom: 20px;
+}
+
+#hero h5{
+	margin-bottom: 20px;
+}
+
+.titulo{
+	font-size: 32px;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	color: #444;
+}
+
+.titulo::after{
+	content: '';
+	display: block;
+	border-bottom: 2px solid #55bc69;
+	width: 50px;
+	margin: 50px auto;
+	color: #444;
+}
+
+.subtitulo{
+	color: var(--color-subtitulos);
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 100px;
+	color: #888;
+}
+
+#welcome h4{
+	color: #444; 
+}
+
+#welcome i{
+	width: 60px;
+	height: 60px;
+	line-height: 60px ;
+	text-align: center;
+	border-radius: 100%;
+	border: 1px solid #FFFFFF;
+	font-size: 40px;
+	margin: 30px 40;
+	color: #FFFFFF;
+	background-color:  #55bc69; 
+	margin-bottom: 200px;
+}
+
+.footer{
+	background-color: #191919;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color:  #6c6c6c;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
